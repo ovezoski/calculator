@@ -1,0 +1,20 @@
+.calculator{
+  background: skyblue;
+  padding:5%;
+  width: 90%;
+  margin: 30px auto;
+}
+
+.white{
+  width: 100%; 
+  background:white;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  padding: 5px;
+  madrgin-left: 10px;
+}
+.gray{
+  background: #eee;
+  padding: 10px;
+  margin-top: 20px;
+}

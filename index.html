@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Iskra</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <div class='calculator'>
+  
+  <h1 class='text-center'>AM Live Price calculator</h1>
+  <hr>
+  <div class='row'>
+    
+    <div class="form-group col-3">
+      
+      <div class="form-control ">
+
+        Choose livestock type:
+        <select id='stockType' name="stock-type" id="">
+          <option value="0"> Cattle </option>
+          <option value="1"> Sheep </option>
+          <option value="2"> Goats </option>
+        </select>
+        
+      </div>
+
+    </div>
+
+    <div class='form-group col-3'>
+
+      <input class='form-control' id='animalsNumber' placeholder="Number of animals"></input>
+    </div>
+
+    <div class='form-group col-3'>
+      <div class="form-control ">
+
+        Choose tier:
+        <select id='tier' id="">
+          <option value="0"> Tier 1 </option>
+          <option value="1"> Tier 2 </option>
+          <option value="2"> Tier 3 </option>
+        </select>
+        
+      </div>
+    </div>
+
+    <div class='form-group col-3'>
+
+      <input id='discount' class='form-control' placeholder="discount"></input>
+
+    </div>
+</div>
+<div class='row justify-content-center'>
+  
+
+    <div class='form-group col-3 justify-self-center'>
+Without discount:
+      <div class='form-control text-center' id="prev">Price</div>
+      
+    </div>
+    <div class='form-group col-3 justify-self-center'>
+
+      <div class='form-control text-center' id="price">Price</div>
+      
+    </div>
+</div>
+
+
+
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
